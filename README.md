@@ -3,8 +3,8 @@ A library to make managing states (game/app) easier.
 
 # Installation
 There are nuget packages available for Monogame and FNA:
-- Monogame [![NuGet version (Velentr.States)](https://img.shields.io/nuget/v/Velentr.States.svg?style=flat-square)](https://www.nuget.org/packages/Velentr.States/): [Velentr.States.Monogame](https://www.nuget.org/packages/Velentr.States.Monogame/)
-- FNA [![NuGet version (Velentr.States)](https://img.shields.io/nuget/v/Velentr.States.svg?style=flat-square)](https://www.nuget.org/packages/Velentr.States/): [Velentr.States.FNA](https://www.nuget.org/packages/Velentr.States.FNA/)
+- Monogame [![NuGet version (Velentr.States.Monogame)](https://img.shields.io/nuget/v/Velentr.States.Monogame.svg?style=flat-square)](https://www.nuget.org/packages/Velentr.States.Monogame/): [Velentr.States.Monogame](https://www.nuget.org/packages/Velentr.States.Monogame/)
+- FNA [![NuGet version (Velentr.States.FNA)](https://img.shields.io/nuget/v/Velentr.States.FNA.svg?style=flat-square)](https://www.nuget.org/packages/Velentr.States.FNA/): [Velentr.States.FNA](https://www.nuget.org/packages/Velentr.States.FNA/)
 
 ## Screenshot:
 ![Screenshot](https://github.com/vonderborch/Velentr.States/blob/main/example.gif?raw=true)

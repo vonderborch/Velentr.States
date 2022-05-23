@@ -29,7 +29,7 @@
     <OutputPath>C:\Users\ricky\OneDrive\Projects\repos\Velentr\Velentr.States\release\FNA</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="fnalibs" Version="21.7.0" developmentDependency="true" />
+    <PackageReference Include="fnalibs" Version="21.7.0" PrivateAssets="All" />
     <PackageReference Include="Velentr.Collections" Version="1.2.2" />
   </ItemGroup>
   <ItemGroup>
