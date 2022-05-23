@@ -1,16 +1,3 @@
-# Velentr.States
-A library to make managing states (game/app) easier.
-
-# Installation
-There are nuget packages available for Monogame and FNA:
-- Monogame [![NuGet version (Velentr.States)](https://img.shields.io/nuget/v/Velentr.States.svg?style=flat-square)](https://www.nuget.org/packages/Velentr.States/): [Velentr.States.Monogame](https://www.nuget.org/packages/Velentr.States.Monogame/)
-- FNA [![NuGet version (Velentr.States)](https://img.shields.io/nuget/v/Velentr.States.svg?style=flat-square)](https://www.nuget.org/packages/Velentr.States/): [Velentr.States.FNA](https://www.nuget.org/packages/Velentr.States.FNA/)
-
-## Screenshot:
-![Screenshot](https://github.com/vonderborch/Velentr.States/blob/main/example.gif?raw=true)
-
-# Example
-```
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -110,7 +97,3 @@ namespace CoreDev
         }
     }
 }
-```
-
-# Future Plans
-See list of issues under the Milestones: https://github.com/vonderborch/Velentr.States/milestones

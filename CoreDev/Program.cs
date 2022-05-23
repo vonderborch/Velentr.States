@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
 #if FNA
 using System.IO;
 using System.Runtime.InteropServices;
 #endif
 
-namespace Velentr.States.DevEnv
+namespace CoreDev
 {
     public static class Program
     {
@@ -25,7 +25,7 @@ namespace Velentr.States.DevEnv
 #endif
 
         [STAThread]
-        static void Main()
+        private static void Main()
         {
 #if FNA
             if (Environment.OSVersion.Platform == PlatformID.Win32NT)
@@ -40,7 +40,7 @@ namespace Velentr.States.DevEnv
                 }
                 catch
                 {
-                    // Pre-Windows 7, KB2533623 
+                    // Pre-Windows 7, KB2533623
                     SetDllDirectory(Path.Combine(
                         AppDomain.CurrentDomain.BaseDirectory,
                         Environment.Is64BitProcess ? "x64" : "x86"
@@ -48,11 +48,8 @@ namespace Velentr.States.DevEnv
                 }
             }
 #endif
-
             using (var game = new Game1())
-            {
                 game.Run();
-            }
         }
     }
 }
