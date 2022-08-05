@@ -11,10 +11,10 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
     <AssemblyName>Velentr.Input.FNA.DevEnv</AssemblyName>
     <RootNamespace>Velentr.Input.FNA.DevEnv</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <StartupObject>CoreDev.Program</StartupObject>
-    <FileVersion>1.0.0</FileVersion>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants)TRACE;FNA</DefineConstants>

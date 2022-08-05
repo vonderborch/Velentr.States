@@ -1,5 +1,5 @@
 # Velentr.States
-A library to make managing states (game/app) easier.
+A library to make managing states in a game or an app easier.
 
 # Installation
 There are nuget packages available for Monogame and FNA:

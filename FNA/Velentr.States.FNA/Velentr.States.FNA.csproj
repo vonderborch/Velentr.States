@@ -9,15 +9,15 @@
     <Company>Christian Webber</Company>
     <RepositoryUrl>https://github.com/vonderborch/Velentr.States</RepositoryUrl>
     <PackageTags>FNA, </PackageTags>
-    <Description>A library to </Description>
-    <Version>1.0.0</Version>
+    <Description>A library to make managing states in a game or an app easier.</Description>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/vonderborch/Velentr.States</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <BaseOutputPath>..\..\release\fna\</BaseOutputPath>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <FileVersion>1.0.0</FileVersion>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DefineConstants>TRACE;FNA</DefineConstants>
